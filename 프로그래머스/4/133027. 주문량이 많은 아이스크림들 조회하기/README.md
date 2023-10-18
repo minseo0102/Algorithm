@@ -2,6 +2,10 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/133027) 
 
+### 풀이 요약
+- 문제 카테고리는 JOIN이나, JOIN으로 풀 시 더 복잡하고, 중복되어 TOTAL_ORDER의 SUM을 구한다던지, 테이블이 비어 있는 경우에는 JOIN ON에 대해 문제가 발생한다고 판단하여 UNION ALL로 보다 간단하게 접근함.
+- JOIN으로 풀 수 있는 정확한 답이 있는지는 모르겠으나, 다른 사람의 풀이 역시 JOIN으로 접근 시 통과는 되더라도, 위와 같은 문제가 있는 것을 확인하였음.
+    
 ### 성능 요약
 
 메모리: 0.0 MB, 시간: 0.00 ms
