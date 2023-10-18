@@ -2,6 +2,12 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42577?language=java) 
 
+### 풀이 요약
+- 해시 알고리즘을 통해 푼게 .java이다
+- sort 후 1중 for 문을 통해 푼게 .cpp이다
+- 해시알고리즘보다 sort로 풀었을 때 더 간결하긴 하다.
+- 하지만 이 문제를 계기로 해시 알고리즘의 역할을 알 수 있었고, 성능을 파악할 수 있었다.
+  
 ### 성능 요약
 
 메모리: 139 MB, 시간: 192.37 ms
