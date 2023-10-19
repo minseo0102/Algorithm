@@ -2,6 +2,10 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131115) 
 
+### 풀이 요약
+- where 절에서 price가 max price를 조회한 결과에 있을 때 = in 를 조건으로 설정하여 풀이함.
+- 내림차순 order해서 limit 1으로 할까 생각했는데, 최대 price가 2개이상일 경우에는 하나만 출력되는 예외를 고려해서 위의 방식으로 풀이함.
+
 ### 성능 요약
 
 메모리: 0.0 MB, 시간: 0.00 ms
