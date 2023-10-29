@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42746) 
 
+### 풀이 요약
+- 라이브러리에서 제공하는 기본 정렬함수를 통해 정렬하여 가장 큰수를 pick한다.
+  
 ### 성능 요약
 
 메모리: 72.8 MB, 시간: 1.79 ms
