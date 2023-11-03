@@ -2,6 +2,12 @@
 
 [문제 링크](https://www.acmicpc.net/problem/9935) 
 
+### 풀이 요약
+- stack을 이용하여 풀이
+- 문자열 길이만큼 순회하면서, 스택의 길이가 target 문자열길이 이상이면 끝에서부터 target길이만큼 비교 후, 동일하면 pop한다.
+- 문자열 덧셈 연산을 안하기 위해 StingBuilder를 사용하고, stack에 있는 값을 그대로 옮겨준다.
+- stringBuilder의 크기가 0이 아이면, toStirng으로 출력하도록 하고, 0이면 요구사항에 있는 문자열을 출력한다.
+  
 ### 성능 요약
 
 메모리: 74112 KB, 시간: 804 ms
