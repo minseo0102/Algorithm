@@ -4,7 +4,7 @@
 #include<queue>
 
 using namespace std;
-//미해결 
+
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -37,7 +37,6 @@ int main() {
 		for (int j = 1; j <= N; j++) {
 			if (!degree[j]) {//내 아래로 없으면
 				q.push(j);
-				sum[j] = D[j];
 			}
 		}
 		while (!q.empty()) {
