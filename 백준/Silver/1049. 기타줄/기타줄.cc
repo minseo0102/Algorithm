@@ -21,7 +21,7 @@ int main() {
 	}
 
 	int base = smin * (N / 6);
-	int temp = min(base + smin, base + (N % 6)*omin);
+	int temp = min((N%6==0) ? base : base + smin, base + (N % 6)*omin);
 	cout << min(omin * N, temp);
 
 	return 0;
