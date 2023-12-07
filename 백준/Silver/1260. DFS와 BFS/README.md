@@ -2,6 +2,12 @@
 
 [문제 링크](https://www.acmicpc.net/problem/1260) 
 
+### 풀이 요약
+- dfs와 bfs를 따로 탐색하도록 함
+- 따라서 visited 배열도 두개로 선언하고 시작함
+- dfs는 단순 for문 함수 재귀 호출을 통해 해결
+- bfs는 queue를 이용해 저장하고 queue가 빌때까지 bfs를 재귀호출 해결
+  
 ### 성능 요약
 
 메모리: 117100 KB, 시간: 312 ms
