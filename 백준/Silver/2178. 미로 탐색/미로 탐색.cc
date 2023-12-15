@@ -13,7 +13,7 @@ int answer = 10000;
 int dx[] = { -1,1,0,0 };
 int dy[] = { 0,0,-1,1 };
 
-void miro(int r, int c, int count, vector<vector<int>> arr) {
+void miro(vector<vector<int>> &arr) {
 	queue<pair<pair<int, int>, int>> q;
 	q.push({ { 0, 0 }, 1 });
 	arr[0][0] = 0;
@@ -40,15 +40,7 @@ void miro(int r, int c, int count, vector<vector<int>> arr) {
 		}
 
 	}
-	
-	arr[r][c] = 0;
-	for (int i = 0; i < 4; i++) {
-		int x = r + dx[i];
-		int y = c + dy[i];
-		if (x >= 0 && x < n&&y >= 0 && y < m&&arr[x][y] == 1) {
-			miro(x, y, count, arr);
-		}
-	}
+
 }
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -67,7 +59,9 @@ int main() {
 		}
 	}
 
-	miro(0, 0, 0, arr);
+	miro(arr);
 
 	cout << answer;
+    
+    return 0;
 }
