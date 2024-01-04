@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42748) 
 
+### 풀이 요약
+- i번째에서 j번째까지 값을 복사한 배열을 정렬하고, 그 중에 k번째 수를 출력한다
+  
 ### 성능 요약
 
 메모리: 71.9 MB, 시간: 0.45 ms
