@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131123) 
 
+### 풀이 요약
+- 서브쿼리 내에서 GROUP으로 묶어 그룹별로 MAX 즐겨찾기를 포함하는 레코드를 찾고, 그 레코드 목록에 포함되는 (IN) 레코드만을 조회한다
+  
 ### 성능 요약
 
 메모리: 0.0 MB, 시간: 0.00 ms
