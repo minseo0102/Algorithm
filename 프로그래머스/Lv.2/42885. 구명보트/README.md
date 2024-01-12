@@ -2,6 +2,15 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42885?language=cpp) 
 
+### 풀이 요약
+- people을 내림차순 정렬
+- 투 포인터 사용하여 양 끝에서 부터 비교
+- left는 큰 값, right는 작은 값 가리키도록
+- 만약 limit에서 left를 뺀 값보다 right이 작으면 같이 태울 수 있으므로, 둘을 제외하기 위해 left는 ++, right는 --한다
+- 만약 limit에서 left를 뺀 값보다 right이 크면 left만 태울 수 있으므로, left를 제외하기 위해 left++
+- 위는 while문을 통해 left<=right이면 반복한다.
+- 각 while문 마다 answer를 증가하여 보트 개수를 카운트한다.
+  
 ### 성능 요약
 
 메모리: 4.46 MB, 시간: 1.68 ms
