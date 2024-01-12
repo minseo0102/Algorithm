@@ -2,6 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59408) 
 
+### 풀이 요약
+- COUNT는 NULL을 세지 않는다.
+- DISTINCT는 중복된 값을 하나로 추린다.
+- 따라서 NAME을 DISTINCT로 조회한 후 이를 COUNT하면 중복된 이름에 대해서는 한번만, NULL은 제외하고 이름의 개수를 구할 수 있다.
+  
 ### 성능 요약
 
 메모리: 0.0 MB, 시간: 0.00 ms
