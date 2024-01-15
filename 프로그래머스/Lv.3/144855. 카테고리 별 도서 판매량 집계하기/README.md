@@ -2,6 +2,13 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/144855) 
 
+### 풀이 요약
+- 두 테이블의 공통 속성인 book_id를 기준으로 inner join
+- 2022년 1월의 판매량만 구하므로, inner join결과에서 판매일자가 2022-01-01 부터 2022-01-31까지 인 것만 where절로 추린다
+- category 속성에 대해 group화 한다
+- 같은 그룹에 속한 판매량들을 sum하여 조회한다
+- 결과를 category에 대해 오름차순 정렬한다 order by category
+
 ### 성능 요약
 
 메모리: 0.0 MB, 시간: 0.00 ms
