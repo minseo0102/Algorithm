@@ -2,6 +2,12 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131117) 
 
+### 풀이 요약
+- 두 테이블을 식품 id에 대해 조인한다.
+- 생산일자가 2022년 5월인것을 where 절로 거른다
+- 식품 id에 대해 그룹화한다.
+- 매출을 구하여 sum한 것을 조회한다.
+  
 ### 성능 요약
 
 메모리: 0.0 MB, 시간: 0.00 ms
