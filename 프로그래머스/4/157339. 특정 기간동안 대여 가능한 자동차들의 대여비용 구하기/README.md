@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/157339) 
 
+### 풀이 요약
+- 주어진 기간이 특정 기간을 일부라도 포함하는지 확인하는 방법은 다음과 같다.
+- 문제에서는 start date와 end date를 가지고 2022년 11월에 포함하는지를 구할 수 있다.
 ### 성능 요약
 
 메모리: 0.0 MB, 시간: 0.00 ms
