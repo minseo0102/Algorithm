@@ -2,6 +2,16 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/151138#qna) 
 
+### 풀이 요약
+- where 조건절에서 between and 연산자를 통해 start_date가 9월인 것만 추림
+- rest_type이라는 컬럼을 추가하고 어떠한 조건에 의해 문자로 나타낼 것이기 때문에, case end 문을 사용
+=> case when (참인 조건) then 결과1 else 결과2 end as rent_type(=즉 컬럼명)
+=> 위와 같은 문법으로 설정
+- 주어진 데이터는 yyyy-mm-dd hh:mm:ss으로 주어짐
+=> 이를 yyyy-mm-dd로 나타낼려면 mysql의 경우 date_format 연산자를 사용한다.
+=> date_format(날짜컬럼, '%Y-%m-%d') as 날짜컬럼명
+=> 이때 대 소문자를 주의한다. m과 d의 경우 대문자로 표시하면 단어형으로, 소문자로 표시하면 숫자형으로 날짜가 표시된다. (단어형 : january, ...)
+
 ### 성능 요약
 
 메모리: 0.0 MB, 시간: 0.00 ms
